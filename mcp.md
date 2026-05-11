@@ -12,7 +12,7 @@ Remato exposes a [Model Context Protocol](https://modelcontextprotocol.io) serve
 | Health probe | `GET https://api.ai-tools.remato.com/mcp/health` (no auth) |
 | Rate limit | 120 req/min per key |
 
-The key must belong to an organization admin — non-admin keys are rejected at the MCP layer. Generate a key from **Settings → External API** in the Remato web app.
+The key must belong to an organization admin — non-admin keys are rejected at the MCP layer. Contact Remato Support for API access.
 
 ## Installation guides
 
