@@ -26,14 +26,17 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) o
 {
   "mcpServers": {
     "remato": {
-      "type": "http",
-      "url": "https://api.ai-tools.remato.com/mcp",
-      "headers": {
-        "x-api-key": "<your-admin-api-key>"
-      }
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://api.ai-tools.remato.com/mcp",
+        "--header",
+        "x-api-key:<your-admin-api-key>"
+      ]
     }
   }
 }
+
 ```
 
 Restart Claude Desktop. The Remato tools will appear in the tool picker.
