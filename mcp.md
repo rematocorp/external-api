@@ -39,7 +39,8 @@ Edit `~/Library/Application Support/Claude/claude_desktop_config.json` (macOS) o
 
 ```
 
-Restart Claude Desktop. The Remato tools will appear in the tool picker.
+Restart Claude Desktop. The Remato MCP is now available in your chats.
+For any setup questions, see the official guide: https://modelcontextprotocol.io/docs/develop/connect-local-servers
 
 ### Claude Code
 
