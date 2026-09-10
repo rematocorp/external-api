@@ -10,7 +10,7 @@ Remato exposes a [Model Context Protocol](https://modelcontextprotocol.io) serve
 | Transport | Streamable HTTP |
 | Auth | `x-api-key: <Remato admin API key>` |
 | Health probe | `GET https://api.ai-tools.remato.com/mcp/health` (no auth) |
-| Rate limit | 120 req/min per key |
+| Rate limit | 100 req/min per key |
 
 The key must belong to an organization admin — non-admin keys are rejected at the MCP layer. Contact Remato Support for API access.
 
